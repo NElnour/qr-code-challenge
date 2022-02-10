@@ -41,13 +41,13 @@ main{
     flex-wrap: nowrap;
 }
 
-main #qr-code {
+main .qr-code {
     padding-top: 17px;
     padding-left: 17px;
     padding-right: 17px;
 }
 
-main #qr-code img {
+main .qr-code img {
     width: 100%;
     border-radius: 10px;
 }
