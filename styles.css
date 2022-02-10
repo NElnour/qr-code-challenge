@@ -17,23 +17,23 @@
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
-#container {
+body {
     background-color: hsl(218, 46%, 88%);
     width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: nowrap;
     justify-content: center;
 }
 
-#qr-card {
+main{
     background-color:  hsl(0, 0%, 100%);
     display: flex;
     flex-direction: column;
     width: 321px;
     text-align: center;
     border-radius: 20px;
-    margin: 10% auto;
+    margin: 20% auto;
     align-items: center;
     align-content: center;
     text-align: center;
@@ -41,13 +41,13 @@
     flex-wrap: nowrap;
 }
 
-#qr-card #qr-code {
+main #qr-code {
     padding-top: 17px;
     padding-left: 17px;
     padding-right: 17px;
 }
 
-#qr-card #qr-code img {
+main #qr-code img {
     width: 100%;
     border-radius: 10px;
 }
